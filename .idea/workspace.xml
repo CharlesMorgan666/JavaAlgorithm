@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae993cad-2dd8-457e-bd9e-a422bcb8647d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/charley/Sort/InsertSort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/charley/Sort/InsertSort/PrintArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/charley/Sort/InsertSort/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/charley/Sort/InsertSort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/charley/Sort/InsertSort/InsertSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,47 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ThreadTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/charley/Thread/ThreadTest.java">
+      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/charley/Sort/InsertSort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaAlgorithm.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaAlgorithm.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsertSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/charley/Sort/InsertSort/InsertSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrintArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/charley/Sort/InsertSort/PrintArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/charley/Sort/InsertSort/BubbleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="273">
+              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -87,9 +49,10 @@
         <option value="$PROJECT_DIR$/src/com/charley/Thread/ThreadTest.java" />
         <option value="$PROJECT_DIR$/src/com/charley/Main.java" />
         <option value="$PROJECT_DIR$/src/com/charley/Sort/InsertSort/InsertSortTest.java" />
-        <option value="$PROJECT_DIR$/src/com/charley/Sort/InsertSort/InsertSort.java" />
         <option value="$PROJECT_DIR$/src/com/charley/Sort/InsertSort/PrintArray.java" />
+        <option value="$PROJECT_DIR$/src/com/charley/Sort/InsertSort/InsertSort.java" />
         <option value="$PROJECT_DIR$/src/com/charley/Sort/InsertSort/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/com/charley/Sort/InsertSort/QuickSort.java" />
       </list>
     </option>
   </component>
@@ -215,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.charley.Sort.InsertSort.BubbleSort" />
       <module name="JavaAlgorithm" />
@@ -243,6 +206,16 @@
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.charley.Sort.InsertSort.QuickSort" />
+      <module name="JavaAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.charley.Sort.InsertSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -262,9 +235,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.InsertSort" />
       <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.QuickSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.InsertSort" />
       </list>
@@ -292,7 +267,7 @@
       <workItem from="1535802141420" duration="2118000" />
       <workItem from="1535886287529" duration="810000" />
       <workItem from="1535887110966" duration="301000" />
-      <workItem from="1535887443548" duration="5554000" />
+      <workItem from="1535887443548" duration="11439000" />
     </task>
     <task id="LOCAL-00001" summary="添加插入排序">
       <created>1535892022091</created>
@@ -301,11 +276,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535892022091</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加冒泡排序">
+      <created>1535893186656</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535893186656</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28205000" />
+    <option name="totallyTimeSpent" value="34090000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -317,11 +299,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49865952" weight="0.32911393" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" sideWeight="0.49865952" visible="true" weight="0.32911393" />
       <window_info anchor="bottom" id="Messages" order="16" sideWeight="0.49865952" weight="0.32911393" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
@@ -331,10 +313,10 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32911393" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.32911393" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932975" visible="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932975" weight="0.32911393" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24128686" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24128686" />
       <window_info anchor="right" id="Database" order="11" weight="0.3297587" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -342,7 +324,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994374" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28270042" />
       <window_info id="设计师" order="8" />
       <window_info anchor="bottom" id="找到" order="14" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -396,11 +378,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加插入排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加插入排序" />
+    <MESSAGE value="添加冒泡排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加冒泡排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1112,17 +1095,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/charley/Thread/ThreadTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/charley/Sort/InsertSort/InsertSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="322">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/charley/Sort/InsertSort/InsertSort.java">
+    <entry file="file://$PROJECT_DIR$/src/com/charley/Sort/InsertSort/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="126">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -1133,10 +1116,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/charley/Sort/InsertSort/BubbleSort.java">
+    <entry file="file://$PROJECT_DIR$/src/com/charley/Thread/ThreadTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="21">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/charley/Sort/InsertSort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
         </state>
       </provider>
     </entry>
