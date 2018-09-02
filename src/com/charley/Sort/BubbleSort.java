@@ -1,4 +1,4 @@
-package com.charley.Sort.InsertSort;
+package com.charley.Sort;
 
 /**BubbleSort冒泡排序
  * @author 莫昌廉

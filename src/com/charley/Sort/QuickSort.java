@@ -1,6 +1,4 @@
-package com.charley.Sort.InsertSort;
-
-import javafx.beans.binding.When;
+package com.charley.Sort;
 
 /**
  * QuickSort快排

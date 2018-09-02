@@ -1,4 +1,4 @@
-package com.charley.Sort.InsertSort;
+package com.charley.Sort;
 
 /**InsertSort插入排序
  * @author 莫昌廉
