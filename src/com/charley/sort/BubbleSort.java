@@ -1,4 +1,4 @@
-package com.charley.Sort;
+package com.charley.sort;
 
 /**BubbleSort冒泡排序
  * @author 莫昌廉

@@ -1,4 +1,4 @@
-package com.charley.Thread;
+package com.charley.thread;
 
 import java.util.concurrent.TimeUnit;
 

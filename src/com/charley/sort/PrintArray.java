@@ -1,4 +1,4 @@
-package com.charley.Sort;
+package com.charley.sort;
 
 /**
  * @author 莫昌廉

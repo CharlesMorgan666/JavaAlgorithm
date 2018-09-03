@@ -1,4 +1,4 @@
-package com.charley.Sort;
+package com.charley.sort;
 
 /**
  * 简单选择排序
