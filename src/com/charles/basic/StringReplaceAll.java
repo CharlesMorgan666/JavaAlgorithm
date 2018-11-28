@@ -1,6 +1,4 @@
-package com.charley.basic;
-
-import java.util.Random;
+package com.charles.basic;
 
 /**
  * <p>

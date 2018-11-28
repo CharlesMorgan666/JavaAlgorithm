@@ -1,4 +1,4 @@
-package com.charley.basic;
+package com.charles.basic;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package com.charley.sort;
+package com.charles.sort;
 
 /**
  * QuickSort快排

@@ -1,6 +1,4 @@
-package com.charley;
-
-import java.util.Random;
+package com.charles;
 
 import static com.jfinal.kit.HashKit.md5;
 

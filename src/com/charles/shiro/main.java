@@ -1,4 +1,4 @@
-package com.charley.shiro;
+package com.charles.shiro;
 
 /**
  * <p></p>
