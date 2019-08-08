@@ -3,7 +3,7 @@ package com.charles.sort;
 /**InsertSort直接插入排序
  * @author 莫昌廉
  */
-public class InsertSort {
+public class MergeSort {
     public static void main(String[] args) {
         int[] array = {9, 8, 1, 4, 2, 3, 5, 6, 7, 13, 12, 14, 11, 15, 16, 17, 19, 18, 10};
         PrintArray.print(array);

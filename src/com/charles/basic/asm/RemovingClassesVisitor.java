@@ -37,17 +37,17 @@ public class RemovingClassesVisitor extends ClassVisitor {
         return super.visitField(access, name, desc, signature, value);
     }
 
-    public static void main(String[] args) {
-        ClassReader cr = new ClassReader("com.charley.basic.asm.Person");
-        ClassWriter cw = new ClassWriter(0);
-        ClassVisitor cv = new RemovingClassesVisitor(cw);
-//        ClassVisitor cv = new MultiClassAdapter(cw);
-        cr.accept(cv, 0);
-        byte[] toByte = cw.toByteArray();// byt 和toByte其实是相同的数组
-        // 输出到class文件
-        FileOutputStream fout = new FileOutputStream("Shareniu.class");
-        fout.write(toByte);
-        fout.close();
-    }
-    }
+//    public static void main(String[] args) {
+//        ClassReader cr = new ClassReader("com.charles.basic.asm.Person");
+//        ClassWriter cw = new ClassWriter(0);
+//        ClassVisitor cv = new RemovingClassesVisitor(cw);
+////        ClassVisitor cv = new MultiClassAdapter(cw);
+//        cr.accept(cv, 0);
+//        byte[] toByte = cw.toByteArray();// byt 和toByte其实是相同的数组
+//        // 输出到class文件
+//        FileOutputStream fout = new FileOutputStream("Shareniu.class");
+//        fout.write(toByte);
+//        fout.close();
+//    }
+//    }
 }

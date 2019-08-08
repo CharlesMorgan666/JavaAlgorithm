@@ -25,7 +25,7 @@
         <sb-captcha.version>1.0.0</sb-captcha.version>
         <sb-account.version>1.0.0</sb-account.version>
         <skipStandalone>true</skipStandalone>
-        <asm.version>7.0</asm.version>>
+        <asm.version>7.0</asm.version>
     </properties>
 
     <dependencies>
